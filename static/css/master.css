@@ -1,0 +1,64 @@
+* {
+	/* old-style reset here :) */
+	border: 0px;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Helvetica;
+	background: white;
+	background: url(/static/img/body-life.png) repeat-x;
+}
+
+
+
+#content {    
+    padding: 1px 30px 0 0;
+    }
+    #main-content {	
+        padding-top: 40px;
+        margin-left:415px;
+        width: 600px;
+    }
+    
+#sidebar {
+        width: 400px;
+        float: left;
+        padding: 0 0 0 0;
+}
+    #sidebar .text_field {
+        width: 100px;
+        border: 1px solid #97b5d2;
+        font-size: 14px;
+        margin: 0px 0px 5px 70px;
+    } 
+    #sidebar label {
+    color:#657788;
+    display:block;
+    font-size:14px;
+    margin: 0px 0px 0px 70px;
+    }
+    #sidebar #button {
+        font-size:14px; 
+        background: #ffffff;   
+    }
+#greet { width: 200px; padding-left: 70px;}
+#greet p {font: 400 14px/1.3em Helvetica, Arial, sans-serif; color: #000000;}
+#greet a {font: 400 14px/1.3em Helvetica, Arial, sans-serif; color: #31787b; -webkit-transition: all 2.5s ease-out; text-decoration: none; position: relative;}
+    a:hover {color: #a64442 !important; -webkit-transition: all .6s ease-in;}
+    a:active {color: #a6442; top: 1px;}
+#error { width: 300px; padding-left: 70px;}
+    
+p {font: 400 17px/1.3em Helvetica, Arial, sans-serif; margin: 0 0 20px; color: #555;}
+		
+a {font: 400 17px/1.3em Helvetica, Arial, sans-serif; color: #31787b; -webkit-transition: all 2.5s ease-out; text-decoration: none; position: relative;}
+    a:hover {color: #a64442 !important; -webkit-transition: all .6s ease-in;}
+    a:active {color: #a6442; top: 1px;}
+    
+h2 {font: 900 26px/1 Helvetica, Arial, sans-serif; color: #444; text-shadow: 0 1px 2px rgba(255,255,255,0.9);}
+h3 {font: 900 18px/1 Helvetica, Arial, sans-serif; color: #444; text-shadow: 0 1px 2px rgba(255,255,255,0.9);}
+    h2, h3 {margin: 0 0 20px;}
+
+    
+ul {margin: 0 0 20px;}
+ul li {list-style: circle; margin: 0 0 10px 20px; color: #555;}
