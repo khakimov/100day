@@ -2,7 +2,6 @@
 	/* old-style reset here :) */
 	border: 0px;
 	margin: 0;
-	padding: 0;
 }
 body {
 	font-family: Helvetica;
@@ -27,7 +26,7 @@ body {
         padding: 0 0 0 0;
 }
     #sidebar .text_field {
-        width: 100px;
+        width: 130px;
         border: 1px solid #97b5d2;
         font-size: 14px;
         margin: 0px 0px 5px 70px;
@@ -39,6 +38,8 @@ body {
     margin: 0px 0px 0px 70px;
     }
     #sidebar #button {
+        display: block;
+        padding-left: 70px;
         font-size:14px; 
         background: #ffffff;   
     }
